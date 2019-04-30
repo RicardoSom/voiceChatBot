@@ -4,7 +4,7 @@
     <category>
         <pattern>HOLA</pattern>
         <template>
-            Hola es un placer, te puedo ayudar?
+            Hola es un placer
         </template>
     </category>
 
@@ -37,6 +37,20 @@
     </category> 
 
     <category>
+        <pattern>QUÉ ESPECIALIDADES TIENEN EN SU RECINTO</pattern>
+        <template>
+            Por el momento, medicina general, dermatología y traumatología
+        </template>
+    </category> 
+
+    <category>
+        <pattern>ATIENDEN DE LUNES A DOMINGO</pattern>
+        <template>
+            De lunes a viernes con horas previamente agendadas, sábado y domingo solo urgencias
+        </template>
+    </category>
+
+    <category>
         <pattern>QUÉ ERES</pattern>
         <template>
             Soy un chatbot de voz
@@ -65,7 +79,7 @@
     </category>
 
     <category>
-        <pattern>CHAO</pattern>
+        <pattern>CHAO *</pattern>
         <template>
             Chao fue un placer ayudarte
         </template>
@@ -82,6 +96,20 @@
         <pattern>QUIERO PEDIR UNA HORA MÉDICA</pattern>
         <template>
             Adelante, qué especialidad buscas?.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CUÁL ES LA DIRECCIÓN DEL CENTRO MÉDICO</pattern>
+        <template>
+            Es en macul, calle falsa 123
+        </template>
+    </category>
+
+    <category>
+        <pattern>TIENES UNA REFERENCIA PARA LLEGAR</pattern>
+        <template>
+            Metro macul y avenida macul
         </template>
     </category>
 
