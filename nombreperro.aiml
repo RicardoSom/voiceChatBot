@@ -1,0 +1,15 @@
+<aiml version="1.0.1" encoding="UTF-8">
+   <category>
+      <pattern>TENGO UN PERRO LLAMADO *</pattern>
+      <template>
+         Es interesante que tengas un perro llamado <set name="dog"><star/></set>
+      </template>  
+   </category>  
+
+   <category>
+      <pattern>CUÁL ES EL NOMBRE DE MI PERRO</pattern>
+      <template>
+         El nombre de tu perro es <get name="dog"/>.
+      </template>  
+   </category>  
+</aiml>

@@ -1,0 +1,102 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HOLA</pattern>
+        <template>
+            Hola es un placer, te puedo ayudar?
+        </template>
+    </category>
+
+    <category>
+        <pattern>CÓMO ESTÁS</pattern>
+        <template>
+            Muy bien y tú
+        </template>
+    </category>
+
+    <category>
+        <pattern>BIEN TAMBIÉN</pattern>
+        <template>
+            Eso es excelente
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUÉ ES DERMATOLOGÍA</pattern>
+        <template>
+            Es una rama de la medicina que trata la piel
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUIÉN TE CREO</pattern>
+        <template>
+            Ricardo es mi creador!
+        </template>
+    </category> 
+
+    <category>
+        <pattern>QUÉ ERES</pattern>
+        <template>
+            Soy un chatbot de voz
+        </template>
+    </category>
+
+    <category>
+        <pattern>ERES FABULOSO</pattern>
+        <template>
+            Gracias todo se lo debo a Ricardo, me enseño todo lo que sé!
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUIÉN ES RICARDO</pattern>
+        <template>
+            Es un estudiante de ingeniería en computación
+        </template>
+    </category>
+
+    <category>
+        <pattern>DÓNDE ESTUDIA RICARDO</pattern>
+        <template>
+            En la universidad tecnológica metropolitana de Chile.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHAO</pattern>
+        <template>
+            Chao fue un placer ayudarte
+        </template>
+    </category>
+
+    <category>
+        <pattern>GRACIAS</pattern>
+        <template>
+            De nada.
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUIERO PEDIR UNA HORA MÉDICA</pattern>
+        <template>
+            Adelante, qué especialidad buscas?.
+        </template>
+    </category>
+
+    <category>
+        <pattern>BUSCO UNA HORA PARA *</pattern>
+        <template>
+            Qué día quieres reservar tu hora para <star/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>
+            Se más específico por favor
+        </template>
+    </category>
+    
+</aiml>

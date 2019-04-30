@@ -1,0 +1,9 @@
+<aiml version="1.0.1" encoding="UTF-8">
+   <category>
+      <pattern>QUÉ SABES SOBRE *</pattern>
+      <template>
+         No mucho la verdad pero esto te puede ayudar https://es.wikipedia.org/wiki/<star/>
+      </template>  
+   </category>  
+
+</aiml>
